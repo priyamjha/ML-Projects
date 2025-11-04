@@ -108,6 +108,12 @@ wheels = [
 ]
 
 [[package]]
+name = "collection"
+version = "0.1.6"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/81/a7/12577601fd60036732cd5b078ed3aa9a2f888169ea70d84997b3607e63b4/collection-0.1.6.tar.gz", hash = "sha256:c4f93726b9c6bed9bcf31286ab3e660401e856c896e58b56aad477b19aaa61f4", size = 5034, upload-time = "2020-08-08T06:02:17.17Z" }
+
+[[package]]
 name = "colorama"
 version = "0.4.6"
 source = { registry = "https://pypi.org/simple" }
@@ -475,6 +481,7 @@ name = "ml-projects"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "collection" },
     { name = "emoji" },
     { name = "matplotlib" },
     { name = "nltk" },
@@ -490,6 +497,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
+    { name = "collection", specifier = ">=0.1.6" },
     { name = "emoji", specifier = ">=2.15.0" },
     { name = "matplotlib", specifier = ">=3.10.7" },
     { name = "nltk", specifier = ">=3.9.2" },
