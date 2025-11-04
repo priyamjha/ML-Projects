@@ -1,0 +1,19 @@
+[project]
+name = "ml-projects"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "emoji>=2.15.0",
+    "matplotlib>=3.10.7",
+    "nltk>=3.9.2",
+    "numpy>=2.3.4",
+    "pandas>=2.3.3",
+    "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "streamlit>=1.51.0",
+    "urlextract>=1.9.0",
+    "wordcloud>=1.9.4",
+    "xgboost>=3.1.1",
+]
